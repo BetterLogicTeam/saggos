@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 function Slider() {
   return (
-    <div>
+    <div className="toop">
         <div className="container">
             <div className="row">
             <Swiper

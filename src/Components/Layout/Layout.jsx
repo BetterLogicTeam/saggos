@@ -12,13 +12,14 @@ function Layout() {
   return (
     <div>
       <Stack>
-        <Grid container sx={{marginY: "130px" , display: "flex", justifyContent: ""}}>
-            <Grid item xs={1.7}></Grid>
+        <Grid container sx={{marginY: "130px" , display: "", justifyContent: ""}}>
+            <Grid item  xs={1.7}></Grid>
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+          {/* .css-zbaamk-MuiGrid-root{{maxWidth: "71%"}} */}
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "104", sm: "300px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200399876.jpg"
@@ -31,10 +32,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200400668.jpg"
@@ -46,10 +47,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "200", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200516493.jpg"
@@ -71,10 +72,10 @@ function Layout() {
             
             <Grid item xs={1.7}></Grid>
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200399876.jpg"
@@ -87,10 +88,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200400668.jpg"
@@ -102,10 +103,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200516493.jpg"
@@ -123,10 +124,10 @@ function Layout() {
             
             <Grid item xs={1.7}></Grid>
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200399876.jpg"
@@ -139,10 +140,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200400668.jpg"
@@ -154,10 +155,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200516493.jpg"
@@ -175,10 +176,10 @@ function Layout() {
             
             <Grid item xs={1.7}></Grid>
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200399876.jpg"
@@ -191,10 +192,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200400668.jpg"
@@ -206,10 +207,10 @@ function Layout() {
           </Grid>
 
           <Grid item xs={12} sm={3}>
-            <Card sx={{ maxWidth: 300 }}>
+            <Card sx={{ maxWidth: {xs: "100", sm: "300px"} }}>
               <CardActionArea>
                 <CardMedia
-                sx={{transition: "ease-out", "&:hover":{width: "304px"}}}
+                sx={{transition: "ease-out", "&:hover":{width: {xs: "100", sm: "304px"}}}}
                   component="img"
                   height="220"
                   image="https://d2j6dbq0eux0bg.cloudfront.net/images/78339660/3200516493.jpg"
@@ -222,6 +223,8 @@ function Layout() {
 
           
         </Grid>
+
+
         </Box>
 
       </Stack>
