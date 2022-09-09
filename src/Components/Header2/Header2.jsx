@@ -185,7 +185,7 @@ function Header2() {
                       Contact
                     </Button></Link>
 
-                    <Button
+                   <Link to="/About_main"> <Button
                       onClick={handleCloseNavMenu}
                       sx={{
                         my: 2,
@@ -199,7 +199,7 @@ function Header2() {
                       }}
                     >
                       About Us
-                    </Button>
+                    </Button></Link>
 
                     <FormControl
                       variant="standard"
@@ -294,7 +294,7 @@ function Header2() {
               </Button>
               </Link>
 
-              <Button
+             <Link to="/About_main"> <Button
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
@@ -308,7 +308,7 @@ function Header2() {
                 }}
               >
                 About Us
-              </Button>
+              </Button></Link>
 
               <FormControl
                 variant="standard"

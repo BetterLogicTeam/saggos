@@ -14,7 +14,8 @@ import {
 } from "react-router-dom";
 import Index_main from "./Components/Index_main";
 import Store_main from "./Components/Store_main";
-import Contact_main from "./Components/Contact_main"
+import Contact_main from "./Components/Contact_main";
+import About_main from "./Components/About_main"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/" element={<Index_main />} />
           <Route exact path="/Store_main" element={<Store_main />} />
           <Route exact path="/Contact_main" element={<Contact_main />} />
+          <Route exact path="/About_main" element={<About_main />} />
 
 
         </Routes>

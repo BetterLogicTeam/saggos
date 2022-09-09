@@ -34,10 +34,10 @@ function Contact_main() {
 
                 <Grid item sx={{display: "flex", flexDirection: "column", justifyContent: "", marginTop: {xs: "40px", sm: "0px"}}}>
 
-                    <Typography variant="subtitle6" sx={{marginBottom: "15px", marginLeft: {xs: "70px", md: "0px"}}}>Street Address, City, State and Zip</Typography>
-                    <Typography variant="subtitle6" sx={{marginBottom: "15px", marginLeft: {xs: "70px", md: "0px"}}}>mymail@mailservice.com</Typography>
-                    <Typography variant="subtitle6" sx={{marginBottom: "35px", marginLeft: {xs: "70px", md: "0px"}}}>555-555-5555</Typography>
-                <Button sx={{bgcolor: "rgb(228,166,76)",marginBottom: "10px", marginLeft: {xs: "70px", md: "0px"},fontWeight: "600",fontSize: "16px", paddingX: "20px",paddingY : "15px", width:{xs: "80%", sm: "66%"}}} variant="contained">FIND US</Button>
+                    <Typography variant="subtitle6" sx={{marginBottom: "15px", marginLeft: {xs: "50px", md: "0px"}}}>Street Address, City, State and Zip</Typography>
+                    <Typography variant="subtitle6" sx={{marginBottom: "15px", marginLeft: {xs: "50px", md: "0px"}}}>mymail@mailservice.com</Typography>
+                    <Typography variant="subtitle6" sx={{marginBottom: "35px", marginLeft: {xs: "50px", md: "0px"}}}>555-555-5555</Typography>
+                <Button sx={{bgcolor: "rgb(228,166,76)",marginBottom: "10px", marginLeft: {xs: "50px", md: "0px"},fontWeight: "600",fontSize: "16px", paddingX: "20px",paddingY : "15px", width:{xs: "80%", sm: "66%"}}} variant="contained">FIND US</Button>
 
                 </Grid>
             </Grid>

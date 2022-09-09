@@ -4,6 +4,8 @@ import React from 'react';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Input } from '@mui/material';
+
 
 function Footer() {
   return (
@@ -13,7 +15,7 @@ function Footer() {
               <Grid item sx={{display: "flex", flexDirection: "column"}}>
               <Typography sx={{marginBottom: "40px"}} variant="subtitle4">SIGN UP TO OUR MAILING LIST</Typography>
               <Typography sx={{marginBottom: "10px"}} variant="subtitle4">Insert your mail and get latest updates</Typography>
-                    <input style={{marginBottom: "20px", padding: "10px"}} type="text" />
+                    <Input sx={{marginBottom: "20px", padding: {xs: "0px", sm: "10px"}, border: "1px solid black"}}placeholder="example@mail.com" type="text" />
                     <Button sx={{bgcolor: "rgb(228,166,76)",marginBottom: "10px", paddingX: "20px",paddingY : "10px", width:{xs: "80%", sm: "60%"}}} variant="contained">SIGN UP</Button>
 
                 {/* <Typography variant="subtitle4">FOLLOW US</Typography> */}
